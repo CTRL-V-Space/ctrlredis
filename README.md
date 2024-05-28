@@ -35,3 +35,11 @@
 > [!CAUTION]
 > WIP: Do not use in production, soon modifications will possibly break your scripts.
 ---
+
+### Available functions
+- [x] set `Redis.set` not support TTL
+- [x] get `Redis.get`
+- [ ] del 
+- [ ] zadd 
+- [ ] zrange 
+- [ ] expire
