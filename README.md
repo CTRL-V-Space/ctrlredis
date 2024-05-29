@@ -3,6 +3,11 @@
 </p>
 <h3 align="center">A FiveM resource to communicate with a Redis database using <a href="https://github.com/redis/ioredis">ioredis</a>.</h3>
 <p align="center">
+  <a href="http://commitizen.github.io/cz-cli/">
+    <img alt="" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg">
+  </a>
+</p>
+<p align="center">
   <a href="">
     <img alt="" src="https://img.shields.io/github/downloads/CTRL-V-Space/ctrlredis/total?logo=github">
   </a>
@@ -37,9 +42,11 @@
 ---
 
 ### Available functions
-- [x] set `Redis.set` not support TTL
+- [x] set `Redis.set` Support TTL & JSON
+- [ ] ttl
+- [ ] expire
 - [x] get `Redis.get`
-- [ ] del 
+- [x] del `Redis.del`
 - [ ] zadd 
 - [ ] zrange 
 - [ ] expire
