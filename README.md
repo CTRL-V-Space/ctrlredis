@@ -41,6 +41,10 @@
 > WIP: Do not use in production, soon modifications will possibly break your scripts.
 ---
 
+## Documentation
+
+[![generic](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/documentation/generic_vector.svg)](https://ctrl-alt-del.wiki/docs/ctrlredis/intro)
+
 ### Available functions
 - [x] set `Redis.set` Support TTL & JSON
 - [ ] ttl
